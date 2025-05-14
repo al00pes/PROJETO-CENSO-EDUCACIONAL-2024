@@ -44,7 +44,7 @@ Este projeto tem como objetivo **extrair, tratar, armazenar e visualizar dados**
 - Construção de gráficos, KPIs e filtros interativos.
 - Dashboard com foco em localização, matrículas, etapas de ensino, entre outros.
 
-📊 Veja o exemplo de visualização: [🔗 `imagens/dashboard_exemplo.png`](./imagens/dashboard_exemplo.png)
+📊 Veja o exemplo de visualização: [🔗 `imagem/censo-2024.jpg`](./imagem/censo-2024.jpg)
 
 ---
 
