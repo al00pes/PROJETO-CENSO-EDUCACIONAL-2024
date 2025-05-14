@@ -18,8 +18,7 @@ Este projeto tem como objetivo **extrair, tratar, armazenar e visualizar dados**
 
 - **Python**: para leitura, tratamento e transformação dos dados.
 - **Google BigQuery**: para armazenamento e consultas rápidas.
-- **Business Intelligence (BI)**: visualização com Power BI, Looker Studio ou equivalente.
-
+- **Business Intelligence (BI)**: visualização com Power BI.
 ---
 
 ## ⚙️ Pipeline do Projeto
@@ -46,7 +45,4 @@ Este projeto tem como objetivo **extrair, tratar, armazenar e visualizar dados**
 
 📊 Veja o exemplo de visualização: [🔗 `imagem/censo-2024.jpg`](./imagem/censo-2024.jpg)
 
----
-
-## 📂 Estrutura do Projeto
 
