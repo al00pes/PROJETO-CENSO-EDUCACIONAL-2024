@@ -1,50 +1,52 @@
 # 🎓 Análise de Escolas Particulares - Censo Escolar 2024
 
+Este projeto tem como objetivo **extrair, tratar, armazenar e visualizar dados** do Censo Escolar da Educação Básica 2024, com foco em instituições **particulares**. A iniciativa visa apoiar áreas como **marketing** e **comercial**, gerando insights para estratégias mais assertivas na oferta de produtos e serviços educacionais.
 
-Este projeto tem como objetivo extrair, tratar, armazenar e visualizar dados do Censo Escolar da Educação Básica 2024, com foco em instituições particulares. A iniciativa busca gerar insights relevantes para apoiar áreas como marketing e comercial, ajudando na definição de estratégias mais assertivas para oferta de produtos e serviços educacionais.
+---
 
-🔍 Objetivo
-Extrair os microdados do Censo Escolar 2024 disponibilizados pelo INEP.
+## 🔍 Objetivos
 
-Filtrar os dados para instituições de ensino particular.
+- Extrair os microdados do Censo Escolar 2024 disponibilizados pelo INEP.
+- Filtrar os dados para instituições de ensino **privadas**.
+- Realizar o **tratamento e limpeza** com Python.
+- Ingerir os dados tratados no **Google BigQuery**.
+- Construir um **dashboard interativo** com foco em dados educacionais privados.
 
-Realizar o tratamento e limpeza dos dados com Python.
+---
 
-Ingerir os dados tratados no Google BigQuery.
+## 🛠️ Tecnologias Utilizadas
 
-Construir um dashboard interativo para visualização de insights.
+- **Python**: para leitura, tratamento e transformação dos dados.
+- **Google BigQuery**: para armazenamento e consultas rápidas.
+- **Business Intelligence (BI)**: visualização com Power BI, Looker Studio ou equivalente.
 
-🛠️ Tecnologias Utilizadas
-Python: Tratamento, limpeza e transformação dos dados.
+---
 
-Google BigQuery: Armazenamento e consulta eficiente dos dados tratados.
+## ⚙️ Pipeline do Projeto
 
-Business Intelligence (BI): Visualização e exploração dos dados (ex: Power BI, Looker Studio, etc.).
+### 1. Coleta de Dados
+- Download dos microdados do portal oficial do [INEP](https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados).
 
-⚙️ Pipeline do Projeto
-Coleta de Dados
-Download dos microdados do Censo Escolar 2024 diretamente do portal do INEP.
+### 2. Tratamento com Python
+- Leitura e padronização dos arquivos `.CSV`.
+- Filtragem de escolas privadas.
+- Limpeza de colunas irrelevantes ou inconsistentes.
+- Enriquecimento dos dados com métricas adicionais (quando aplicável).
 
-Tratamento com Python
+📁 Acesse o código de tratamento: [🔗 `codigo/tratamento_dados.py`](./codigo/tratamento_dados.py)
 
-Leitura e padronização dos arquivos CSV.
+### 3. Ingestão no BigQuery
+- Criação do dataset e tabelas no BigQuery.
+- Upload automatizado com `pandas-gbq` ou `google-cloud-bigquery`.
 
-Filtragem de escolas privadas.
+### 4. Visualização com BI
+- Conexão do BI ao BigQuery.
+- Construção de gráficos, KPIs e filtros interativos.
+- Dashboard com foco em localização, matrículas, etapas de ensino, entre outros.
 
-Limpeza de colunas irrelevantes ou inconsistentes.
+📊 Veja o exemplo de visualização: [🔗 `imagens/dashboard_exemplo.png`](./imagens/dashboard_exemplo.png)
 
-Enriquecimento dos dados com novas métricas (se aplicável).
+---
 
-Ingestão para o BigQuery
+## 📂 Estrutura do Projeto
 
-Criação de dataset e tabelas.
-
-Upload automatizado via pandas-gbq ou google-cloud-bigquery.
-
-Visualização com BI
-
-Conexão com o BigQuery.
-
-Criação de gráficos, KPIs e filtros interativos.
-
-Dashboard focado em métricas como localização, número de matrículas, etapas de ensino, entre outros.
