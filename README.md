@@ -33,7 +33,7 @@ Este projeto tem como objetivo **extrair, tratar, armazenar e visualizar dados**
 - Limpeza de colunas irrelevantes ou inconsistentes.
 - Enriquecimento dos dados com métricas adicionais (quando aplicável).
 
-📁 Acesse o código de tratamento: [🔗 `codigo/tratamento_dados.py`](./codigo/tratamento_dados.py)
+📁 Acesse o código de tratamento: [🔗 `codigo/tratamento.ipynb`](./codigo/tratamento.ipynb)
 
 ### 3. Ingestão no BigQuery
 - Criação do dataset e tabelas no BigQuery.
