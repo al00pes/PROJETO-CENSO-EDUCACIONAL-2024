@@ -1,6 +1,6 @@
-# PROJETO-LIV
+# 🎓 Análise de Escolas Particulares - Censo Escolar 2024
 
-🎓 Análise de Escolas Particulares - Censo Escolar 2024
+
 Este projeto tem como objetivo extrair, tratar, armazenar e visualizar dados do Censo Escolar da Educação Básica 2024, com foco em instituições particulares. A iniciativa busca gerar insights relevantes para apoiar áreas como marketing e comercial, ajudando na definição de estratégias mais assertivas para oferta de produtos e serviços educacionais.
 
 🔍 Objetivo
